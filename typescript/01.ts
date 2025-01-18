@@ -48,8 +48,8 @@
         }
     }
 
-    // 1개부터 4개까지 선택한다.
-    for (let i = 1; i < arr.length; i++) {
+    // 1/4 혹은 2/3으로 나눈다.
+    for (let i = 1; i < 3; i++) {
         goal = i;
         selectNumber(0, 0);
     }
